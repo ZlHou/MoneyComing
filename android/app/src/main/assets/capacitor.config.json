@@ -1,0 +1,6 @@
+{
+	"appId": "com.moneycoming.assetmanager",
+	"appName": "MoneyComing",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
