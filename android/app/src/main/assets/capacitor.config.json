@@ -1,6 +1,18 @@
 {
-	"appId": "com.moneycoming.assetmanager",
-	"appName": "MoneyComing",
+	"appId": "com.assetmanager.app",
+	"appName": "资产管家",
 	"webDir": "dist",
-	"bundledWebRuntime": false
+	"server": {
+		"androidScheme": "https"
+	},
+	"plugins": {
+		"CapacitorHttp": {
+			"enabled": true
+		},
+		"SplashScreen": {
+			"launchAutoHide": true,
+			"androidScaleType": "CENTER_CROP",
+			"backgroundColor": "#0A4F3F"
+		}
+	}
 }
